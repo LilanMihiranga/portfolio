@@ -180,3 +180,42 @@ code { font-family: "JetBrains Mono", monospace; font-size: .85em; background: v
 @media (prefers-reduced-motion: reduce) {
   .arch .flow, .clouds span, .pulse { animation: none; }
 }
+
+/* ---------- Icons ---------- */
+.ico { width: 18px; height: 18px; color: var(--accent); flex: none; }
+.skill h4 { display: flex; align-items: center; gap: 10px; }
+.ico.sk { width: 22px; height: 22px; padding: 5px; box-sizing: content-box; border-radius: 8px; background: rgba(56,189,248,.1); border: 1px solid rgba(56,189,248,.2); }
+
+/* Hero stack strip */
+.stack { margin-top: 40px; }
+.stack-label { font-family: "JetBrains Mono", monospace; font-size: 12px; color: var(--muted); margin-bottom: 12px; }
+.marquee {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+          mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+.track { list-style: none; display: flex; gap: 12px; width: max-content; animation: scroll 45s linear infinite; }
+.marquee:hover .track { animation-play-state: paused; }
+.track li {
+  display: flex; align-items: center; gap: 8px; white-space: nowrap;
+  padding: 8px 14px; border-radius: 10px; font-size: 14px; color: #cbd5e1;
+  background: rgba(17,26,46,.8); border: 1px solid var(--line);
+  transition: border-color .2s, transform .2s;
+}
+.track li:hover { border-color: var(--accent); transform: translateY(-2px); }
+@keyframes scroll { to { transform: translateX(calc(-50% - 6px)); } }
+
+/* Diagram icon badges */
+.arch .badge { color: var(--accent); }
+.arch .badge circle { fill: #0b1120; stroke: currentColor; stroke-width: 1.4; }
+.arch .badge.edge { color: #818cf8; }
+.arch .badge.data { color: #34d399; }
+.arch .badge.sec { color: #fbbf24; }
+.arch .in-ico { color: var(--accent); }
+.arch .pod-ico { color: rgba(56,189,248,.8); }
+.arch .badge { transition: transform .2s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .track { animation: none; flex-wrap: wrap; width: auto; }
+  .track li[aria-hidden="true"] { display: none; }
+}

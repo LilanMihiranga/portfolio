@@ -15,6 +15,28 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.6-3 8.3-7 10-4-1.7-7-5.4-7-10V6z"/><path d="M9 12l2 2 4-4"/></g></symbol>
+  <symbol id="i-gateway" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h7M10 12l4-6h5M10 12h9M10 12l4 6h5M17 4l2 2-2 2M17 10l2 2-2 2M17 16l2 2-2 2"/></g></symbol>
+  <symbol id="i-k8s" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5l8.2 4.75v9.5L12 21.5l-8.2-4.75v-9.5z"/><path d="M12 8l4 2.2v4.6L12 17l-4-2.2v-4.6zM8 10.2l4 2.3 4-2.3M12 12.5V17"/></g></symbol>
+  <symbol id="i-cube" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M4 7.5l8 4.5 8-4.5M12 12v9"/></g></symbol>
+  <symbol id="i-db" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5.5" rx="7" ry="2.5"/><path d="M5 5.5v13c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-13M5 12c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5"/></g></symbol>
+  <symbol id="i-bolt" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></g></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></g></symbol>
+  <symbol id="i-key" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="4.5"/><path d="M11.2 11.8L20 3M16 7l3 3M14 9l2 2"/></g></symbol>
+  <symbol id="i-nat" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="11" height="14" rx="2"/><path d="M9 12h12M17 8l4 4-4 4"/></g></symbol>
+  <symbol id="i-pipeline" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="12" r="2.5"/><circle cx="19" cy="6" r="2.5"/><circle cx="19" cy="18" r="2.5"/><path d="M7.5 12H11M11 12c3 0 3-6 5.5-6M11 12c3 0 3 6 5.5 6"/></g></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 4.5-9 4.5-9-4.5z"/><path d="M3 12l9 4.5 9-4.5M3 16.5l9 4.5 9-4.5"/></g></symbol>
+  <symbol id="i-checkc" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.7 2.7L16 9.5"/></g></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/></g></symbol>
+  <symbol id="i-logs" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6z"/><path d="M15 3v4h4M9 11h7M9 15h7M9 18h4"/></g></symbol>
+  <symbol id="i-bell" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16v-5a6 6 0 0 1 12 0v5l2 2H4z"/><path d="M10 20a2 2 0 0 0 4 0"/></g></symbol>
+  <symbol id="i-cloud" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h10.5a4.5 4.5 0 0 0 .6-8.96A6 6 0 0 0 6.6 9.2 4.5 4.5 0 0 0 7 18z"/></g></symbol>
+  <symbol id="i-vnet" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="6" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><path d="M7 6h10M6 7.7l5 8.6M18 7.7l-5 8.6"/></g></symbol>
+  <symbol id="i-id" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2.2"/><path d="M5.8 16c.6-1.6 1.8-2.4 3.2-2.4s2.6.8 3.2 2.4M14 10h4M14 13.5h3"/></g></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></g></symbol>
+  <symbol id="i-auto" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></g></symbol>
+</svg>
   <header class="nav">
     <div class="wrap nav-inner">
       <a href="#top" class="logo">lilan<span>.</span>jayasuriya</a>
@@ -52,6 +74,10 @@
         <li><strong>4</strong><span>enterprise Azure platforms run as Primary Engineer</span></li>
         <li><strong>5</strong><span>countries supported in middleware rollouts</span></li>
       </ul>
+      <div class="stack">
+        <p class="stack-label">// services I work with</p>
+        <div class="marquee"><ul class="track"><li><svg class="ico" aria-hidden="true"><use href="#i-k8s"/></svg><span>AKS</span></li><li><svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg><span>Front Door + WAF</span></li><li><svg class="ico" aria-hidden="true"><use href="#i-gateway"/></svg><span>Application Gateway</span></li><li><svg class="ico" aria-hidden="true"><use href="#i-key"/></svg><span>Key Vault</span></li><li><svg class="ico" aria-hidden="true"><use href="#i-db"/></svg><span>Azure SQL</span></li><li><svg class="ico" aria-hidden="true"><use href="#i-bolt"/></svg><span>Redis Cache</span></li><li><svg class="ico" aria-hidden="true"><use href="#i-search"/></svg><span>Solr</span></li><li><svg class="ico" aria-hidden="true"><use href="#i-nat"/></svg><span>NAT Gateway</span></li><li><svg class="ico" aria-hidden="true"><use href="#i-vnet"/></svg><span>Virtual Network</span></li><li><svg class="ico" aria-hidden="true"><use href="#i-id"/></svg><span>Entra ID</span></li><li><svg class="ico" aria-hidden="true"><use href="#i-pipeline"/></svg><span>Azure DevOps</span></li><li><svg class="ico" aria-hidden="true"><use href="#i-layers"/></svg><span>Terraform</span></li><li><svg class="ico" aria-hidden="true"><use href="#i-auto"/></svg><span>Azure Automation</span></li><li><svg class="ico" aria-hidden="true"><use href="#i-chart"/></svg><span>Datadog</span></li><li><svg class="ico" aria-hidden="true"><use href="#i-logs"/></svg><span>Log Analytics</span></li><li><svg class="ico" aria-hidden="true"><use href="#i-bell"/></svg><span>Azure Monitor</span></li><li aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-k8s"/></svg><span>AKS</span></li><li aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg><span>Front Door + WAF</span></li><li aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-gateway"/></svg><span>Application Gateway</span></li><li aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-key"/></svg><span>Key Vault</span></li><li aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-db"/></svg><span>Azure SQL</span></li><li aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-bolt"/></svg><span>Redis Cache</span></li><li aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-search"/></svg><span>Solr</span></li><li aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-nat"/></svg><span>NAT Gateway</span></li><li aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-vnet"/></svg><span>Virtual Network</span></li><li aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-id"/></svg><span>Entra ID</span></li><li aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-pipeline"/></svg><span>Azure DevOps</span></li><li aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-layers"/></svg><span>Terraform</span></li><li aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-auto"/></svg><span>Azure Automation</span></li><li aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-chart"/></svg><span>Datadog</span></li><li aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-logs"/></svg><span>Log Analytics</span></li><li aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-bell"/></svg><span>Azure Monitor</span></li></ul></div>
+      </div>
     </div>
     </section>
 
@@ -110,11 +136,11 @@
             <rect x="300" y="14" width="600" height="78" rx="12" class="lane-box"/>
             <text x="316" y="34" class="lane-label">CI/CD · INFRASTRUCTURE AS CODE</text>
             <rect x="320" y="44" width="170" height="36" rx="8" class="node alt"/>
-            <text x="405" y="67" class="t">Azure DevOps</text>
+            <use href="#i-pipeline" x="330" y="54" width="17" height="17" class="in-ico"/><text x="415" y="67" class="t">Azure DevOps</text>
             <rect x="520" y="44" width="170" height="36" rx="8" class="node alt"/>
-            <text x="605" y="67" class="t">terraform plan</text>
+            <use href="#i-layers" x="530" y="54" width="17" height="17" class="in-ico"/><text x="615" y="67" class="t">terraform plan</text>
             <rect x="720" y="44" width="160" height="36" rx="8" class="node alt"/>
-            <text x="800" y="67" class="t">approve → apply</text>
+            <use href="#i-checkc" x="730" y="54" width="17" height="17" class="in-ico"/><text x="810" y="67" class="t">approve → apply</text>
             <path d="M490 62H516" class="link" marker-end="url(#ar)"/>
             <path d="M690 62H716" class="link" marker-end="url(#ar)"/>
           </g>
@@ -138,7 +164,7 @@
           <!-- VNet -->
           <rect x="290" y="140" width="610" height="320" rx="16" class="vnet"/>
           <rect x="290" y="140" width="610" height="320" rx="16" fill="url(#dots)" opacity=".5"/>
-          <text x="308" y="164" class="lane-label">AZURE VIRTUAL NETWORK</text>
+          <text x="312" y="166" class="lane-label">AZURE VIRTUAL NETWORK</text>
 
           <!-- App Gateway -->
           <g>
@@ -151,11 +177,11 @@
           <g>
             <rect x="476" y="182" width="226" height="240" rx="12" class="node aks"/>
             <text x="589" y="206" class="t b">AKS cluster</text>
-            <rect x="496" y="222" width="186" height="40" rx="7" class="pod"/>
+            <rect x="496" y="222" width="186" height="40" rx="7" class="pod"/><use href="#i-cube" x="508" y="234" width="16" height="16" class="pod-ico"/>
             <text x="589" y="247" class="small c">CM pods</text>
-            <rect x="496" y="272" width="186" height="40" rx="7" class="pod"/>
+            <rect x="496" y="272" width="186" height="40" rx="7" class="pod"/><use href="#i-cube" x="508" y="284" width="16" height="16" class="pod-ico"/>
             <text x="589" y="297" class="small c">CD pods</text>
-            <rect x="496" y="322" width="186" height="40" rx="7" class="pod"/>
+            <rect x="496" y="322" width="186" height="40" rx="7" class="pod"/><use href="#i-cube" x="508" y="334" width="16" height="16" class="pod-ico"/>
             <text x="589" y="347" class="small c">Rendering (JSS)</text>
             <text x="589" y="396" class="small c">HPA · node pools · upgrades</text>
           </g>
@@ -185,6 +211,17 @@
             <path d="M998 392V414" class="link" marker-end="url(#ar)"/>
           </g>
 
+          <!-- Icon badges -->
+          <g class="badge edge" transform="translate(122 262)"><circle r="14"/><use href="#i-shield" x="-9" y="-9" width="18" height="18"/></g>
+          <g class="badge " transform="translate(312 262)"><circle r="14"/><use href="#i-gateway" x="-9" y="-9" width="18" height="18"/></g>
+          <g class="badge " transform="translate(476 182)"><circle r="14"/><use href="#i-k8s" x="-9" y="-9" width="18" height="18"/></g>
+          <g class="badge data" transform="translate(740 190)"><circle r="14"/><use href="#i-db" x="-9" y="-9" width="18" height="18"/></g>
+          <g class="badge data" transform="translate(740 272)"><circle r="14"/><use href="#i-bolt" x="-9" y="-9" width="18" height="18"/></g>
+          <g class="badge data" transform="translate(740 354)"><circle r="14"/><use href="#i-search" x="-9" y="-9" width="18" height="18"/></g>
+          <g class="badge sec" transform="translate(930 182)"><circle r="14"/><use href="#i-key" x="-9" y="-9" width="18" height="18"/></g>
+          <g class="badge " transform="translate(930 330)"><circle r="14"/><use href="#i-nat" x="-9" y="-9" width="18" height="18"/></g>
+          <g class="badge " transform="translate(290 140)"><circle r="14"/><use href="#i-vnet" x="-9" y="-9" width="18" height="18"/></g>
+
           <!-- Request flow (animated) -->
           <path d="M92 300H118" class="flow" marker-end="url(#ar)"/>
           <path d="M262 300H308" class="flow" marker-end="url(#ar)"/>
@@ -204,11 +241,11 @@
             <rect x="290" y="500" width="610" height="84" rx="12" class="lane-box"/>
             <text x="306" y="520" class="lane-label">OBSERVABILITY · INCIDENT RESPONSE</text>
             <rect x="310" y="532" width="180" height="38" rx="8" class="node alt"/>
-            <text x="400" y="556" class="t">Datadog · DBM</text>
+            <use href="#i-chart" x="320" y="542" width="17" height="17" class="in-ico"/><text x="410" y="556" class="t">Datadog · DBM</text>
             <rect x="505" y="532" width="190" height="38" rx="8" class="node alt"/>
-            <text x="600" y="556" class="t">Log Analytics (KQL)</text>
+            <use href="#i-logs" x="515" y="542" width="17" height="17" class="in-ico"/><text x="610" y="556" class="t">Log Analytics (KQL)</text>
             <rect x="710" y="532" width="172" height="38" rx="8" class="node alt"/>
-            <text x="796" y="556" class="t">Azure Monitor alerts</text>
+            <use href="#i-bell" x="720" y="542" width="17" height="17" class="in-ico"/><text x="806" y="556" class="t">Azure Monitor alerts</text>
           </g>
           <path d="M589 462V496" class="link dash" marker-end="url(#ar)"/>
           <path d="M192 338V541H306" class="link dash" marker-end="url(#ar)"/>
@@ -285,14 +322,14 @@
     <section id="skills" class="wrap section">
       <h2><span class="num">04</span> Skills</h2>
       <div class="skills">
-        <div class="skill"><h4>Azure</h4><p>AKS, App Service, Front Door, Application Gateway (AGIC), NAT Gateway, Key Vault, Azure SQL, Redis, Azure Automation, APIM, Entra ID</p></div>
-        <div class="skill"><h4>CI/CD &amp; IaC</h4><p>Azure DevOps, Terraform, Jenkins, Ansible, Rundeck, Git</p></div>
-        <div class="skill"><h4>Containers</h4><p>Kubernetes, Docker, AKS, GKE, Horizontal Pod Autoscaling</p></div>
-        <div class="skill"><h4>Monitoring</h4><p>Datadog, Log Analytics (KQL), Nagios, ELK Stack</p></div>
-        <div class="skill"><h4>Networking &amp; Security</h4><p>Nginx, HAProxy, WAF, OAuth 2.0, SAML, SSL/TLS, managed identities</p></div>
-        <div class="skill"><h4>Operations</h4><p>Incident response, root cause analysis, change management, certificate lifecycle</p></div>
-        <div class="skill"><h4>Platforms</h4><p>Sitecore, Solr, WSO2 API Manager, WSO2 Identity Server</p></div>
-        <div class="skill"><h4>Scripting</h4><p>Python, Bash, PowerShell, Java, JavaScript, C#</p></div>
+        <div class="skill"><h4><svg class="ico sk" aria-hidden="true"><use href="#i-cloud"/></svg>Azure</h4><p>AKS, App Service, Front Door, Application Gateway (AGIC), NAT Gateway, Key Vault, Azure SQL, Redis, Azure Automation, APIM, Entra ID</p></div>
+        <div class="skill"><h4><svg class="ico sk" aria-hidden="true"><use href="#i-pipeline"/></svg>CI/CD &amp; IaC</h4><p>Azure DevOps, Terraform, Jenkins, Ansible, Rundeck, Git</p></div>
+        <div class="skill"><h4><svg class="ico sk" aria-hidden="true"><use href="#i-cube"/></svg>Containers</h4><p>Kubernetes, Docker, AKS, GKE, Horizontal Pod Autoscaling</p></div>
+        <div class="skill"><h4><svg class="ico sk" aria-hidden="true"><use href="#i-chart"/></svg>Monitoring</h4><p>Datadog, Log Analytics (KQL), Nagios, ELK Stack</p></div>
+        <div class="skill"><h4><svg class="ico sk" aria-hidden="true"><use href="#i-shield"/></svg>Networking &amp; Security</h4><p>Nginx, HAProxy, WAF, OAuth 2.0, SAML, SSL/TLS, managed identities</p></div>
+        <div class="skill"><h4><svg class="ico sk" aria-hidden="true"><use href="#i-bell"/></svg>Operations</h4><p>Incident response, root cause analysis, change management, certificate lifecycle</p></div>
+        <div class="skill"><h4><svg class="ico sk" aria-hidden="true"><use href="#i-layers"/></svg>Platforms</h4><p>Sitecore, Solr, WSO2 API Manager, WSO2 Identity Server</p></div>
+        <div class="skill"><h4><svg class="ico sk" aria-hidden="true"><use href="#i-code"/></svg>Scripting</h4><p>Python, Bash, PowerShell, Java, JavaScript, C#</p></div>
       </div>
 
       <h3 class="sub">Certifications</h3>
